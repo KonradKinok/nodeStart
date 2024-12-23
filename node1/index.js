@@ -2,8 +2,8 @@ import { info, log } from "./import.js";
 import { kolorowyTekst } from "./colors.js";
 import { sciezkaDoAktualnegoKatalogu } from "./fileManager.js";
 import { plikiKatalogu, plikiKataloguEmitter } from "./fileManager.js";
-import { danePlikowKatalogu } from "./fileManager.js";
-
+import { danePlikowKatalogu, sciezkiDoKatalogow } from "./fileManager.js";
+import * as Argument from "./argument.js";
 info("info function zmiana");
 log("log function");
 
@@ -18,6 +18,6 @@ plikiKataloguEmitter.on("błąd", (error) => {
 });
 
 plikiKatalogu();
-
+sciezkiDoKatalogow();
 // console.log(process.argv);
 // console.log(process.env); // console

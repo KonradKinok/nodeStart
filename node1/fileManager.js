@@ -15,6 +15,7 @@ export const sciezkaDoAktualnegoKatalogu = () => {
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+
 export const plikiKataloguEmitter = new EventEmitter();
 export const plikiKatalogu = async () => {
   try {
@@ -41,4 +42,18 @@ export const plikiKatalogu = async () => {
   } catch (error) {
     console.error("Wystąpił błąd:", error);
   }
+};
+
+export const sciezkiDoKatalogow = () => {
+  // Bieżący katalog roboczy
+  const currentDir = process.cwd();
+  console.log("Bieżący katalog:", currentDir);
+
+  // Katalog nadrzędny
+  const parentDir = path.dirname(currentDir);
+  console.log("Katalog nadrzędny (ścieżka):", parentDir);
+
+  // Nazwa katalogu nadrzędnego
+  const parentDirName = path.basename(parentDir);
+  console.log("Nazwa katalogu nadrzędnego:", parentDirName);
 };
