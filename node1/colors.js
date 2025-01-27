@@ -3,41 +3,40 @@ import colors from "colors";
 const jakisTekst = "Jakis Tekst";
 export const kolorowyTekst = () => {
   console.log(
-    "hello ".black,
-    "hello ".red,
-    "hello ".green,
-    "hello ".yellow,
-    "hello ".blue,
-    "hello ".magenta,
-    "hello ".cyan,
-    "hello ".white,
-    "hello ".gray,
-    "hello ".brightRed,
-    "hello ".brightGreen,
-    "hello ".brightYellow,
-    "hello ".brightMagenta,
-    "hello ".brightCyan,
-    "hello ".brightWhite,
-    "hello ".bgBlack,
-    "hello ".bgRed,
-    "hello ".bgGreen,
-    "hello ".bgYellow,
-    "hello ".bgBlue,
-    "hello ".bgMagenta,
-    "hello ".bgCyan,
-    "hello ".bgWhite,
-    "hello ".bgGray,
-    "hello ".bgGrey,
-    "hello ".bold,
-    "hello ".dim,
-    "hello ".italic,
-    "hello ".underline
+    ".black ".black,
+    ".red ".red,
+    ".green ".green,
+    ".yellow ".yellow,
+    ".blue ".blue,
+    ".magenta ".magenta,
+    ".cyan ".cyan,
+    ".white ".white,
+    ".gray ".gray,
+    ".brightRed ".brightRed,
+    ".brightGreen ".brightGreen,
+    ".brightYellow ".brightYellow,
+    ".brightMagenta ".brightMagenta,
+    ".brightCyan ".brightCyan,
+    ".brightWhite ".brightWhite,
+    ".bgBlack ".bgBlack,
+    ".bgRed ".bgRed,
+    ".bgGreen ".bgGreen,
+    ".bgYellow ".bgYellow,
+    ".bgBlue ".bgBlue,
+    ".bgMagenta ".bgMagenta,
+    ".bgCyan ".bgCyan,
+    ".bgWhite ".bgWhite,
+    ".bgGrey ".bgGrey,
+    ".bold ".bold,
+    ".dim ".dim,
+    ".italic ".italic,
+    ".underline ".underline
   ); // outputs green text
-  console.log("i like cake and pies".underline.red); // outputs red underlined text
-  console.log("inverse the color".inverse); // inverses the color
-  console.log("OMG Rainbows!".rainbow); // rainbow
-  console.log("OMG Rainbows!OMG Rainbows!".rainbow); // rainbow
-  console.log(`Run the trap ${jakisTekst}\n\n`.trap); // Drops the bass
+  console.log(".underline.red)".underline.red); // outputs red underlined text
+  console.log(".inverse".inverse); // inverses the color
+  console.log(".rainbow".rainbow); // rainbow
+  console.log(".rainbow.rainbow".rainbow); // rainbow
+  console.log(`Run the trap ${jakisTekst}\n\n.trap`.trap); // Drops the bass
 };
 
 // text colors
